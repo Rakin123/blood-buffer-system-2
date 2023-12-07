@@ -4,7 +4,7 @@ body{
     font-family:verdana;
     margin: 0;
     padding: 0;
-    background-image: url('img/finish.jpg');
+    background-image: url('img/leaf.webp');
     background-attachment: fixed; /* Keeps the background image stationary */
     background-size: cover; /* Adjusts the background size */
     /* background-position: 1540px; */
