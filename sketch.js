@@ -16,14 +16,16 @@ var kcMoving = false;
 
 
 function setup() {
-    var canvas = createCanvas(windowWidth -(windowWidth *0.41), windowHeight*0.35);
+    const container = document.getElementById('simBg');
+    var canvas = createCanvas(container.offsetWidth -30, windowHeight*0.35);
+    console.log(width,height, windowWidth)
     canvas.parent('simBg'); // Set the parent of the canvas to the div
 
 
 
 
     // at 35degree kc value
-    initialVal = 665
+    initialVal = width *0.68
 
     kcX = initialVal
     qcX = -1000
