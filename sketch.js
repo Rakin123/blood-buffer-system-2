@@ -29,6 +29,7 @@ function setup() {
 
     kcX = initialVal
     qcX = -1000
+    console.log("hey hi")
 }
 
 function draw() {
